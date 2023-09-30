@@ -14,7 +14,7 @@ for i in range(0,len(data)):
             if int(data[i][j]) > int(highestScore):
                 highestScore = data[i][j]
                 topScorers[0] = data[i][j-2]+" "+data[i][j-1] #First name and last name, update current top scorer by overwritting topScorers[0]
-                del topScorers[1:]
+                del topScorers[1:] #Deleting previous highest scorers
             elif int(data[i][j]) == int(highestScore):
                 topScorers.append(data[i][j-2]+" "+data[i][j-1]) #Add on any other top scorers with same as current highest
 
@@ -22,4 +22,4 @@ for i in range(0,len(data)):
 topScorers = (sorted(topScorers)) #Sort alphabetically
 for i in range(0,len(topScorers)):
     print(topScorers[i])
-print(highestScore)
+print("Score:",highestScore)
