@@ -12,6 +12,6 @@ The above was my chosen approach to the problem, as I thought that this would be
 
 
 ## Instructions to run code
-- Open the .py file in an IDE of any choice, ensure that the TestData.csv file is saved in the same folder.
-- When prompted, a user must input the full name of the file they which to receive the highest scorers of, such as entering "TestData.csv".
+- Download and open the folder in an IDE of any choice and run the .py file, ensure that the TestData.csv file is saved in the same folder.
+- When prompted, the user must input the full name of the file they which to receive the highest scorers of, such as entering "TestData.csv".
 - The program will then display the top scorer's name(s) and the highest score achieved from the given data.
